@@ -13,5 +13,8 @@ function asociamePorFavor() {
 
 function calcularLetrasTitulo() {
   // 1. Accede a la propiedad textContent del nodo h1. Guarda esa información en una variable
+  let titulo = document.querySelector("h1").textContent;
+
   // 2. Usa el método adecuado para obtener el número de carácteres del string en textContent. Pon ese valor en el textContent del #panel
+ document.querySelector("#panel").textContent = titulo.length;
 }
