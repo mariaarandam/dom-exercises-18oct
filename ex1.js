@@ -44,4 +44,4 @@ document.getElementById("ultimo").classList.remove("estilo-3");
  
  */
 
-document.querySelector("p:nth-of-type(4)").classList.add("ocultar");
+document.querySelector("#penultimo").classList.add("ocultar");
